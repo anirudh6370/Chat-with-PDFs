@@ -27,37 +27,28 @@ The application follows these steps to provide responses to your questions:
 ----------------------------
 To install the MultiPDF Chat App, please follow these steps:
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine using git bash.
+   ```
+   git clone https://github.com/anirudh6370/Chat-with-PDFs.git
+   ```
 
 2. Install the required dependencies by running the following command:
    ```
    pip install -r requirements.txt
    ```
+3. Ensure that you have the OpenAI API key and installed the required dependencies.
 
-3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
-```commandline
-OPENAI_API_KEY=your_secrit_api_key
-```
-
-## Instuction to use this code
------
-To use the MultiPDF Chat App, follow these steps:
-
-1. Clone the repository to your local machine.
-
-2. Ensure that you have the OpenAI API key and installed the required dependencies.
-
-3. Run the `main.py` file using the Streamlit CLI. Execute the following command:
+4. Run the `main.py` file using the Streamlit CLI. Execute the following command:
    ```
    streamlit run app.py
    ```
    
-4. The application will launch in your default web browser, displaying the user interface.
+5. The application will launch in your default web browser, displaying the user interface.
 
 ## Instructions to use the app
--------------------------------
+---------------------------
 ![MultiPDF Chat App screenshot](./docs/Screenshot%202024-02-27%20233824.png)
-1. Get your OpenAI API key from OpenAI website 
+1. Get your OpenAI API key from [OpenAI](https://platform.openai.com/api-keys)
 2. Enter your OpenAI API key
 3. Browse pdfs from your directory and click process button
 4. Lets chat with the AI about the pdfs you have provided
