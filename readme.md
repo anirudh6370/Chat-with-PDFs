@@ -1,6 +1,5 @@
 # MultiPDF Chat App
 
-> You can find the tutorial for this project on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
 
 ## Introduction
 ------------
@@ -10,6 +9,7 @@ The MultiPDF Chat App is a Python application that allows you to chat with multi
 ------------
 
 ![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
+
 
 The application follows these steps to provide responses to your questions:
 
@@ -39,26 +39,28 @@ To install the MultiPDF Chat App, please follow these steps:
 OPENAI_API_KEY=your_secrit_api_key
 ```
 
-## Usage
+## Instuction to use this code
 -----
 To use the MultiPDF Chat App, follow these steps:
 
-1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
+1. Clone the repository to your local machine.
 
-2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
+2. Ensure that you have the OpenAI API key and installed the required dependencies.
+
+3. Run the `main.py` file using the Streamlit CLI. Execute the following command:
    ```
    streamlit run app.py
    ```
+   
+4. The application will launch in your default web browser, displaying the user interface.
 
-3. The application will launch in your default web browser, displaying the user interface.
-
-4. Load multiple PDF documents into the app by following the provided instructions.
-
-5. Ask questions in natural language about the loaded PDFs using the chat interface.
-
-## Contributing
-------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
+## Instructions to use the app
+-------------------------------
+![MultiPDF Chat App screenshot](./docs/Screenshot 2024-02-27 233824.png)
+1. Get your OpenAI API key from OpenAI website 
+2. Enter your OpenAI API key
+3. Browse pdfs from your directory and enter process button
+4. Lets chat with the AI about the pdfs you have provided
 
 ## License
 -------
