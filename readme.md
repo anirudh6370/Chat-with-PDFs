@@ -56,10 +56,10 @@ To use the MultiPDF Chat App, follow these steps:
 
 ## Instructions to use the app
 -------------------------------
-![MultiPDF Chat App screenshot](./docs/Screenshot 2024-02-27 233824.png)
+![MultiPDF Chat App screenshot](./docs/Screenshot%202024-02-27%20233824.png)
 1. Get your OpenAI API key from OpenAI website 
 2. Enter your OpenAI API key
-3. Browse pdfs from your directory and enter process button
+3. Browse pdfs from your directory and click process button
 4. Lets chat with the AI about the pdfs you have provided
 
 ## License
