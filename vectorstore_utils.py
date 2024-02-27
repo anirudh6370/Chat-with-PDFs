@@ -11,9 +11,8 @@ def get_text_chunks(text):
     )
     chunks = text_splitter.split_text(text)
     return chunks
-
-def get_vectorstore(text_chunks):
-    embeddings = OpenAIEmbeddings()
+def get_vectorstore(text_chunks,apikey):
+    embeddings = OpenAIEmbeddings(openai_api_key=apikey)
     # embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
