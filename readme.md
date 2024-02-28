@@ -1,6 +1,6 @@
 # MultiPDF Chat App
 
-App Link: [chat-with-pdfs-anirudh.streamlit.app](https://chat-with-pdfs-anirudh.streamlit.app/)
+App Link: [chatwithpdfs-anirudh.streamlit.app](https://chatwithpdfs-anirudh.streamlit.app/)
 
 ## Introduction
 ------------
